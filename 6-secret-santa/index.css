@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(santa-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+  font-family: 'Almarai', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
