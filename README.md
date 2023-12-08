@@ -11,3 +11,5 @@
 5. [Jeopardy Card Flip](https://amandapennell.github.io/javascriptmas-2023/5-jeopardy-card-flip/)
 
 6. [Secret Santa](https://amandapennell.github.io/javascriptmas-2023/6-secret-santa/)
+
+7. [Christmas Present Wishlish](https://amandapennell.github.io/javascriptmas-2023/7-christmas-present-wishlist/)
