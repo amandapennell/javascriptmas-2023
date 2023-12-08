@@ -17,26 +17,26 @@ let wishlist = ["Macbook Air M2", "Scrimba Pro subscription", "Chanel No. 5", "S
 
 loadEventListeners()
 function loadEventListeners() {
-  btn.addEventListener("click", addWish);
+    btn.addEventListener("click", addWish);
 }
 
 function displayWish() {
-  let totalList = "";
-  for (let i = 0; i < wishlist.length; i++) {
-    totalList+= `<li>${wishlist[i]}  <span class="remove-icon" onclick="removeItem(this)"> ❎</span></li>`; 
-  }
-myWishlist.innerHTML = totalList;
+    let totalList = "";
+    for (let i = 0; i < wishlist.length; i++) {
+        totalList += `<li>${wishlist[i]}  <span class="remove-icon" onclick="removeItem(this)"> ❎</span></li>`;
+    }
+    myWishlist.innerHTML = totalList;
 }
 displayWish();
 
 function addWish() {
-  let addWish = "";
-  if(input.value === "") {
-  } else {
-    addWish = input.value;
-    myWishlist.innerHTML+= `<li>${addWish} <span class="remove-icon" onclick="removeItem(this)">❎</span></li>`;
-    input.value = "";
-  }
+    let addWish = "";
+    if (input.value === "") {
+    } else {
+        addWish = input.value;
+        myWishlist.innerHTML += `<li>${addWish} <span class="remove-icon" onclick="removeItem(this)">❎</span></li>`;
+        input.value = "";
+    }
 }
 
 function removeItem(icon) {
