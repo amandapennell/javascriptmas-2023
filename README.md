@@ -13,3 +13,5 @@
 6. [Secret Santa](https://amandapennell.github.io/javascriptmas-2023/6-secret-santa/)
 
 7. [Christmas Present Wishlish](https://amandapennell.github.io/javascriptmas-2023/7-christmas-present-wishlist/)
+
+8. [Animated Progress Bar](https://amandapennell.github.io/javascriptmas-2023/8-animated-progress-bar/)
