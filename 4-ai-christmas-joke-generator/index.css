@@ -14,7 +14,7 @@ body {
 }
 
 body {
-    background-image: url('/xmas-bg3.png');
+    background-image: url('xmas-bg3.png');
     background-size: cover;
     display: flex;
     height: 100vh;
