@@ -7,3 +7,5 @@
 3. [Dividing Candies](https://amandapennell.github.io/javascriptmas-2023/3-dividing-candy/)
 
 4. [AI Christmas Joke Generator](https://scrimba.com/scrim/cofee44b29bce53c38cf6a5cd)
+
+5. [Jeopardy Card Flip](https://amandapennell.github.io/javascriptmas-2023/5-jeopardy-card-flip/)
