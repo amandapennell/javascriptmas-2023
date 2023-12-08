@@ -59,3 +59,65 @@ li {
 address {
     font-style: normal;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 0.75fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 2px;
+}
+
+.tracker-title {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.tracker-description {
+    grid-area: 1 / 4 / 2 / 7;
+}
+
+.tracker-description p {
+    font-size: 1.25em;
+    background-color: var(--background-color);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
+
+.tracker-progress {
+    grid-area: 2 / 1 / 3 / 7;
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    padding: 20px;
+}
+
+.tracker-shop {
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.tracker-order {
+    grid-area: 3 / 3 / 4 / 5;
+}
+
+.tracker-rating {
+    grid-area: 3 / 5 / 4 / 7;
+}
+
+.card {
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.progress-bar {
+    background-color: var(--progressbar-bg);
+    height: 2em;
+    width: 500px;
+    border-radius: 1em;
+}
+
+.checked {
+    color: orange;
+}
