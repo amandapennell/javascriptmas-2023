@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3: Dividing Candies</title>
+    <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <main class="container">
+            <h1>🍬 Candy Divider 🍬</h1>
+            <form>
+                <label for="number-candies">Number of candies:</label>
+                <input type="number" name="number-candies" id="number-candies" required />  
+                <label for="number-children">Number of children:</label>
+                <input type="number" name="number-children" id="number-children" required /> 
+                <button id="btn" onclick="calcTotalCandies()">Let's divide!</button>
+                <p>Candies per child: <span id="candies-per-child">-</span> 🍭</p>
+                <p>Total number of candies that can be eaten: <span id="total-candies-eaten">-</span> 🍭</p>
+            </form>
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
