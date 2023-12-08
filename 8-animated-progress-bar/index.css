@@ -121,3 +121,90 @@ address {
 .checked {
     color: orange;
 }
+
+/* animations */
+
+.progress-status {
+    transition: .5s linear;
+    transition-property: width, background-color;
+    animation: progress 5s infinite;
+}
+
+#cycle:after {
+    animation-name: cycle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    content: "";
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+        background: var(--start);
+    }
+
+    40% {
+        width: 50%;
+        background: var(--middle);
+    }
+
+    80% {
+        width: 100%;
+        background: var(--finish);
+    }
+
+    100% {
+        width: 100%;
+        background: var(--finish);
+    }
+}
+
+@keyframes cycle {
+    0% {
+        content: "Checking list twice";
+    }
+
+    40% {
+        content: "Fetching presents";
+    }
+
+    80% {
+        content: "Wrapping presents";
+    }
+
+    100% {
+        content: "Packing sleigh";
+    }
+}
+
+/* add responsive media queries below */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 0.75fr);
+    }
+
+    .tracker-title {
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    .tracker-description {
+        grid-area: 2 / 1 / 3 / 4;
+    }
+
+    .tracker-progress {
+        grid-area: 3 / 1 / 4 / 4;
+    }
+
+    .tracker-shop {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .tracker-order {
+        grid-area: 4 / 2 / 5 / 3;
+    }
+
+    .tracker-rating {
+        grid-area: 4 / 3 / 5 / 4;
+    }
+}
