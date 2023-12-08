@@ -87,3 +87,43 @@ button {
     background-color: red;
     color: #fff;
 }
+
+#results {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.rtitle {
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.gift {
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+
+    .flex-items-right,
+    .flex-items-left {
+        flex: 100%;
+    }
+
+    .cta-btn {
+        width: 100%;
+    }
+
+    #results {
+        position: relative;
+        padding: 20px;
+        margin: 0;
+    }
+}
