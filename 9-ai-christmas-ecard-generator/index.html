@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Day 9: AI Christmas E-card Generator</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Inter:wght@400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<main>
+		<section class="left-col" id="image-container">
+			<img src="/placeholder-image.png">
+		</section>
+		<section class="right-col">
+			<h1>Merry Christmas!!</h1>
+			<h2>Wishing you a happy New Year and all the best for 2024.</h2>
+			<p>Love Amanda 💜</p>
+		</section>
+		<dialog id="dialog-modal">
+			<form id="form-container">
+				<label>Describe a Christmassy image for your e-card 🎄</label>
+				<div class="form-inner">
+					<textarea placeholder="A winter scene..." id="user-input"></textarea>
+					<button type="submit"><img src="send.svg" class="btn-send"></button>
+				</div>
+			</form>
+		</dialog>
+		<button id="card-button" style="display: none;">New Card</button>
+	</main>
+
+	<script src="index.js" type="module"></script>
+</body>
+
+</html>
