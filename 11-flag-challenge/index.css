@@ -8,10 +8,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}   
+}
 
 body {
     display: grid;
     place-items: center;
     height: 100vh;
+}
+
+.flag {
+    position: relative;
+    background: var(--red);
+    height: calc(32px * var(--scale));
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+}
+
+.flag-swiss {
+    width: calc(32px * var(--scale));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 50%);
+}
+
+.cross {
+    position: absolute;
+    background: var(--white);
+}
+
+.cross1 {
+    height: calc(6px * var(--scale));
+    width: calc(20px * var(--scale));
+}
+
+.cross2 {
+    height: calc(20px * var(--scale));
+    width: calc(6px * var(--scale));
 }
