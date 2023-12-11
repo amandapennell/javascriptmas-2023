@@ -17,3 +17,5 @@
 8. [Animated Progress Bar](https://amandapennell.github.io/javascriptmas-2023/8-animated-progress-bar/)
 
 9. [AI Christmas E-card Generator](https://scrimba.com/scrim/co84a4b1a9ee5a04182df6c40)
+
+10. [Rockin' Around](https://amandapennell.github.io/javascriptmas-2023/10-rockin-around/)
