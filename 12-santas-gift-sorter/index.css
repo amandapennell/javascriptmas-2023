@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: repeating-linear-gradient(
+        45deg,
+        green,
+        green 10px,
+        red 10px,
+        red 20px,
+        white 20px,
+        white 30px
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    background-color: #222;
+    color: #39FF14;
+    border-radius: 10px;
+    position: relative;
+    height: 600px;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(11, 65, 4, 0.1);    
+}
