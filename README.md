@@ -21,3 +21,5 @@
 10. [Rockin' Around](https://amandapennell.github.io/javascriptmas-2023/10-rockin-around/)
 
 11. [Flag Challenge](https://amandapennell.github.io/javascriptmas-2023/11-flag-challenge/)
+
+12. [Santa's Gift Sorter](https://amandapennell.github.io/javascriptmas-2023/12-santas-gift-sorter/)
