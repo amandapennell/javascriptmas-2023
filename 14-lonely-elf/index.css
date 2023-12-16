@@ -69,3 +69,29 @@ h1 {
     justify-content: center;
     margin: 1em;
 }
+
+button {
+    background-color: var(--bright-red);
+    color: var(--snow);
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1rem;
+    margin: 1em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 999px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-repeat: no-repeat;
+    }   
+    .elf {
+        flex-basis: calc(33.333% - 20px);
+    }
+}
