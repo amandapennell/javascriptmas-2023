@@ -1,0 +1,15 @@
+:root {
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(snow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
