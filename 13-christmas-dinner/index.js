@@ -85,3 +85,14 @@ calculator.addEventListener('click', () => {
         dinnerContainer.classList.add('flex-center')
     }
 })
+
+document.querySelector('#grinch-input').addEventListener('change', function () {
+    if (this.checked) {
+        document.body.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("grinch.png")'
+        document.body.classList.add('grinch-mode')
+    } else {
+        document.body.style.backgroundImage = ''
+        document.body.style.backgroundColor = '#D42D2F'
+        document.body.classList.remove('grinch-mode')
+    }
+})
