@@ -34,3 +34,24 @@ function updateElfMood() {
         h1.textContent = 'Overwhelmed Elf';
     }
 }   
+
+resetBtn.addEventListener('click', function() {
+
+    const elves = document.querySelectorAll('.elf');
+
+    for(let i = 1; i < elves.length; i++) {
+        elves[i].parentNode.removeChild(elves[i]);
+    }
+
+    updateElfMood();
+});
+
+/** Challenge:
+        - Write a function to duplicate the elf when the button is clicked.
+        - See index.css for optional styling challenges.
+**/
+
+/** Stretch goals:
+        - Write a function to give the elves some tools, or a cup of tea!
+        - Limit the total number of elves to 100.
+**/
