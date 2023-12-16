@@ -13,3 +13,41 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.rings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.ring {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ring-1 {
+    background-color: var(--black);
+    height: 310px;
+    width: 310px;
+}
+
+.ring-2 {
+    background-color: var(--blue);
+    height: 240px;
+    width: 240px;
+}
+
+.ring-3 {
+    background-color: var(--red);
+    height: 170px;
+    width: 170px;
+}
+
+.bullseye {
+    background-color: var(--yellow);
+    height: 80px;
+    width: 80px;
+}
