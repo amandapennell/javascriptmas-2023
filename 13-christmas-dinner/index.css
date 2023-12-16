@@ -124,3 +124,41 @@ button:focus {
     border: 1px solid var(--snow);
     cursor: pointer;
 }
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+}
+
+#img {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#recipe {
+    background: var(--snow);
+    color: var(--dark-green);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#recipe:hover,
+#recipe:focus {
+    background: var(--dark-green);
+    color: var(--snow);
+    transform: scale(1.05);
+    border: 1px solid var(--snow);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
