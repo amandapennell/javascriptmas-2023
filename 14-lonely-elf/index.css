@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500&display=swap');
+
+:root {
+    --bright-red: #D42D2F;
+    --snow: #F0F4F7;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--snow);
+    background-image: url(elf.png);
+    background-repeat: repeat-x;
+    background-position: right;
+    color: var(--bright-red);
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
