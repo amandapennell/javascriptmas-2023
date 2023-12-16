@@ -49,3 +49,78 @@ h1 {
     margin-bottom: 10px;
     padding-bottom: 30px;
 }
+
+form input,
+form button,
+.result {
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    border: none;
+}
+
+form {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 12em;
+}
+
+form * {
+    font-size: 1.3rem;
+    padding: .5em;
+}
+
+label {
+    padding-bottom: 20px;
+}
+
+input {
+    background: var(--snow);
+    color: var(--dark-green);
+}
+
+.grinch {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.grinch>input {
+    margin-right: 10px;
+}
+
+.result {
+    background: var(--snow);
+    color: var(--bright-red);
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+    min-width: 270px;
+    max-width: 5ch;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.result span {
+    color: var(--dark-green);
+    font-weight: 900;
+}
+
+button {
+    color: var(--dark-green);
+    background: var(--snow);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--dark-green);
+    color: var(--snow);
+    transform: scale(1.05);
+    border: 1px solid var(--snow);
+    cursor: pointer;
+}
