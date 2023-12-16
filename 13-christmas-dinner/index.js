@@ -49,3 +49,39 @@ const grinchSuggestions = [
         recipe: "https://www.foodandwine.com/recipes/standing-rib-roast-beef"
     }
 ]
+
+function christmasDinner(dinnerOptions, numOfGuests) {
+    let dinnerSuggestion = ""
+
+    if (numOfGuests < 5) {
+        dinnerSuggestion = dinnerOptions[0];
+        return dinnerSuggestion
+
+    } else if (numOfGuests >= 5) {
+        dinnerSuggestion = dinnerOptions[1];
+        return dinnerSuggestion
+    }
+}
+
+calculator.addEventListener('click', () => {
+    const guestsNum = Number(numGuests.value)
+
+    if (grinchInput.checked) {
+        const dinnerSuggestion = christmasDinner(grinchSuggestions, guestsNum)
+        dinner.innerText = `${dinnerSuggestion.name}`
+        dinnerImg.setAttribute('src', dinnerSuggestion.image)
+        dinnerImg.setAttribute('alt', dinnerSuggestion.name)
+        dinnerRecipe.setAttribute('href', dinnerSuggestion.recipe)
+        dinnerContainer.classList.remove('hidden')
+        dinnerContainer.classList.add('flex-center')
+
+    } else {
+        const dinnerSuggestion = christmasDinner(suggestions, guestsNum)
+        dinner.innerText = `${dinnerSuggestion.name}`
+        dinnerImg.setAttribute('src', dinnerSuggestion.image)
+        dinnerImg.setAttribute('alt', dinnerSuggestion.name)
+        dinnerRecipe.setAttribute('href', dinnerSuggestion.recipe)
+        dinnerContainer.classList.remove('hidden')
+        dinnerContainer.classList.add('flex-center')
+    }
+})
