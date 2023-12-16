@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 13: Christmas Dinner Picker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <h1>Christmas Dinner Picker</h1>
+            <form>
+                <label for="name">How many guests are coming?</label>
+                <input id="num-input" type="number" id="guests" name="guests" min="1" required>
+                <div class="grinch">
+                    <input type="checkbox" id="grinch-input" name="grinch" />
+                    <label for="name">Grinch mode</label>
+                </div>
+                <button id="btn" type="button">Calculate</button>
+            </form>
+        </div>
+        <div class="column">
+            <p class="result" id="result">Your ideal Christmas dinner is <span id="dinner">...</span></p>
+            <div id="dinner-container" class="hidden">
+                <img id="img">
+                <br>
+                <a id="recipe" href="" target="_blank">Recipe</a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
