@@ -25,3 +25,47 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+.elf-hangout-zone {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    max-width: 800px;  
+    margin: 2em;
+    padding: 1em 2em;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.elf {
+    font-size: 30px;
+    display: flex;
+    flex-basis: calc(16.666% - 20px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
