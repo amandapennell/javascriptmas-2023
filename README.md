@@ -25,3 +25,5 @@
 12. [Santa's Gift Sorter](https://amandapennell.github.io/javascriptmas-2023/12-santas-gift-sorter/)
 
 13. [Christmas Dinner Picker](https://amandapennell.github.io/javascriptmas-2023/13-christmas-dinner/)
+
+14. [Lonely Elf](https://amandapennell.github.io/javascriptmas-2023/14-lonely-elf/)
