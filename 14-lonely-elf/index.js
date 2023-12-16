@@ -17,3 +17,20 @@ function duplicateElf() {
 
     updateElfMood();
 }
+
+function updateElfMood() {
+    const numberOfElves = document.querySelectorAll('.elf').length;
+    const h1 = document.querySelector('h1');
+
+    if (numberOfElves === 0) {
+        h1.textContent = 'No Elves Around';
+    } else if (numberOfElves === 1) {
+        h1.textContent = 'Lonely Elf';
+    } else if (numberOfElves <= 10) {
+        h1.textContent = 'Happy Elf';
+    } else if (numberOfElves <= 50) {
+        h1.textContent = 'Excited Elf';
+    } else {
+        h1.textContent = 'Overwhelmed Elf';
+    }
+}   
