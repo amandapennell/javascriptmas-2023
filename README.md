@@ -27,3 +27,5 @@
 13. [Christmas Dinner Picker](https://amandapennell.github.io/javascriptmas-2023/13-christmas-dinner/)
 
 14. [Lonely Elf](https://amandapennell.github.io/javascriptmas-2023/14-lonely-elf/)
+
+15. [Archery Target](https://amandapennell.github.io/javascriptmas-2023/15-archery-target/)
