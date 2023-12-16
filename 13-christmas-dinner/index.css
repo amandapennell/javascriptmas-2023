@@ -162,3 +162,36 @@ button:focus {
 .hidden {
     display: none;
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        padding: 20px;
+    }
+
+    form {
+        height: 10em;
+    }
+
+    form * {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+
+    #img {
+        height: 150px;
+    }
+}
