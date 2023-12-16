@@ -21,6 +21,10 @@ body {
     padding-top: 60px;
 }
 
+.rings:hover {
+    animation: spin 2s linear infinite;
+}
+
 .ring {
     border-radius: 50%;
     display: flex;
@@ -50,4 +54,14 @@ body {
     background-color: var(--yellow);
     height: 80px;
     width: 80px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
