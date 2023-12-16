@@ -23,3 +23,5 @@
 11. [Flag Challenge](https://amandapennell.github.io/javascriptmas-2023/11-flag-challenge/)
 
 12. [Santa's Gift Sorter](https://amandapennell.github.io/javascriptmas-2023/12-santas-gift-sorter/)
+
+13. [Christmas Dinner Picker](https://amandapennell.github.io/javascriptmas-2023/13-christmas-dinner/)
