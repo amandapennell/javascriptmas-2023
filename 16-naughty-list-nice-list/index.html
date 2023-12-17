@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 16: 😈 Naughty List, Nice List 😇</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>🦹 <span>Naughty List,</span> Nice List! 😇</h1>
+    <div class="container">
+        <div>
+            <h2 class="naughty-text">😈 Naughty List 👿</h2>
+            <ul class="list naughty-list card" id="naughty-list"></ul>
+        </div>
+        <div>
+            <h2>🎅 Nice List 🎁</h2>
+            <ul class="list nice-list card" id="nice-list"></ul>
+        </div>
+    </div>
+
+    <form onsubmit="addtoList()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <label><input type="checkbox" id="naughty"
+                onclick="document.getElementById('nice').disabled = this.checked;">Naughty?</label>
+        <label><input type="checkbox" id="nice"
+                onclick="document.getElementById('naughty').disabled = this.checked;">Nice?</label>
+        <input type="submit" id="add-btn" class="btn" value="Add" />
+    </form>
+
+    <div class="sort-reset">
+        <button id="sort-btn" class="btn" type="button">Sort</button>
+        <button id="reset-btn" class="btn" type="button">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
