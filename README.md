@@ -31,3 +31,5 @@
 15. [Archery Target](https://amandapennell.github.io/javascriptmas-2023/15-archery-target/)
 
 16. [Naughty List, Nice List](https://amandapennell.github.io/javascriptmas-2023/16-naughty-list-nice-list)
+
+17. [Word Carousel](https://amandapennell.github.io/javascriptmas-2023/17-word-carousel/)
