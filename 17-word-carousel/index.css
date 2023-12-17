@@ -16,9 +16,27 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;   
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    color: var(--text);
+}
+
+h1::after {
+    content: '';
+    background-color: var(--bg-word);
+    margin-left: 5px;
+    padding: 8px 10px;
+    border-radius: 4px;
 }
