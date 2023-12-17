@@ -42,7 +42,7 @@ h1 span {
     color: var(--bright-red);
 }
 
-container,
+.container,
 .list {
     display: flex;
     justify-content: center;
@@ -133,3 +133,18 @@ label {
     font-size: 1.2rem;
     margin-top: 1em;
 }
+
+@keyframes cardEntrance {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+        filter: hue-rotate(180deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: hue-rotate(0deg);
+    }
+}
+
