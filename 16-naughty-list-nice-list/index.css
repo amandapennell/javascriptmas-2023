@@ -41,3 +41,95 @@ h2 {
 h1 span {
     color: var(--bright-red);
 }
+
+container,
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    color: var(--snow);
+    font-weight: 700;
+    font-size: 1.5rem;
+    list-style-type: none;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 0 1em 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+}
+
+.nice-list {
+    background: var(--dark-green);
+}
+
+.naughty-list {
+    background: var(--bright-red);
+}
+
+.naughty-text {
+    color: var(--bright-red);
+}
+
+.card {
+    animation: cardEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+}
+
+.card:hover {
+    transform: translateY(-3px) scale(1.1);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.25em;
+}
+
+form {
+    color: var(--dark-green);
+    font-size: 1.2rem;
+    margin-top: 1em;
+}
+
+label {
+    font-weight: 600;
+    margin-right: 0.5em;
+}
+
+#name {
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border: 1px solid var(--dark-green);
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: var(--dark-green);
+    color: var(--snow);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.sort-reset {
+    color: var(--dark-green);
+    font-size: 1.2rem;
+    margin-top: 1em;
+}
