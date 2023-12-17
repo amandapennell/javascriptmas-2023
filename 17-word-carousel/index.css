@@ -39,4 +39,24 @@ h1::after {
     margin-left: 5px;
     padding: 8px 10px;
     border-radius: 4px;
+    animation: carousel 5s steps(1) infinite;
+}
+
+@keyframes carousel {
+    0% {
+        content: 'coding';
+    }
+
+    45% {
+        content: 'cats';
+    }
+
+    65% {
+        content: 'rock music';
+    }
+
+    85% {
+        content: 'photography';
+    }
+
 }
