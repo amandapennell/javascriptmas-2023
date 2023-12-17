@@ -29,3 +29,5 @@
 14. [Lonely Elf](https://amandapennell.github.io/javascriptmas-2023/14-lonely-elf/)
 
 15. [Archery Target](https://amandapennell.github.io/javascriptmas-2023/15-archery-target/)
+
+16. [Naughty List, Nice List](https://amandapennell.github.io/javascriptmas-2023/16-naughty-list-nice-list)
