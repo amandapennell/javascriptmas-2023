@@ -1,0 +1,12 @@
+const niceList = document.getElementById("nice-list")
+const naughtyList = document.getElementById("naughty-list")
+const sortBtn = document.getElementById("sort-btn")
+const resetBtn = document.getElementById("reset-btn")
+const name = document.getElementById("name")
+const naughty = document.getElementById("naughty")
+const nice = document.getElementById("nice")
+const addBtn = document.getElementById("add-btn")
+
+sortBtn.addEventListener("click", sortList)
+resetBtn.addEventListener("click", resetList)
+addBtn.addEventListener("click", addToList)
