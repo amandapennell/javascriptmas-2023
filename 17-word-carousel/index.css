@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-word: #5134ff;
+    --text: #fff;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
