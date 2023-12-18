@@ -33,3 +33,5 @@
 16. [Naughty List, Nice List](https://amandapennell.github.io/javascriptmas-2023/16-naughty-list-nice-list)
 
 17. [Word Carousel](https://amandapennell.github.io/javascriptmas-2023/17-word-carousel/)
+
+18. [AI Alt Text Generator](https://scrimba.com/scrim/co854477ebab4fbfc99c62b04)
