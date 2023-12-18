@@ -123,3 +123,25 @@ button {
     width: 25px;
     display: block;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        background-repeat: repeat-y;
+
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .right-col {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: var(--radius);
+    }
+
+    .left-col {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: var(--radius);
+    }
+}
