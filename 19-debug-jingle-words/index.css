@@ -9,7 +9,7 @@
   }
   
   body {
-      background-image: url('/xmas-bg3.png');
+      background-image: url('xmas-bg3.png');
       background-size: cover;
       height: 100vh;
   }
