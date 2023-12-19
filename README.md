@@ -35,3 +35,5 @@
 17. [Word Carousel](https://amandapennell.github.io/javascriptmas-2023/17-word-carousel/)
 
 18. [AI Alt Text Generator](https://scrimba.com/scrim/co854477ebab4fbfc99c62b04)
+
+19. [Debug Jingle Words](https://scrimba.com/scrim/coa73404193f4745647679eca)
