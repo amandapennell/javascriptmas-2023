@@ -1,0 +1,97 @@
+/* =========== GENERAL STYLES ===========*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark: #032b47;
+    --light: #dae9f5;
+}
+
+/* =========== REPEATED STYLES  ===========*/
+body, .toggle-wrap, .toggle-switch {
+    transition: 0.3s;
+}
+
+.toggle-wrap, 
+body:has(.toggle-input:checked) h1,
+.toggle-input:checked+.toggle-switch {
+     background-color: var(--light);
+}
+
+h1, .toggle-switch, 
+body:has(.toggle-input:checked),
+.toggle-wrap:has(.toggle-input:checked) {
+    background-color: var(--dark);
+}
+
+/* =========== BODY ===========*/
+body {
+    background: var(--light) url("emoji.png") center no-repeat;
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+/* =========== H1 ===========*/
+h1 {
+    color: var(--light);
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: -50px;
+    padding: 20px 22px;
+    border-radius: 100px;
+}
+
+/* =========== TOGGLE ===========*/
+.toggle-wrap {
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 100px;
+    border: 3px solid var(--dark);
+    border-radius: 1.5em;
+}
+
+label {
+    cursor: pointer;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-switch {
+    width: 30px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+body:has(.toggle-input:checked) {
+    background-image: url("emoji-snow.png");
+}
+
+body:has(.toggle-input:checked) h1 {
+    color: var(--dark);
+}
+
+.toggle-wrap:has(.toggle-input:checked) {
+    border-color: var(--light);
+}
+
+.toggle-input:checked+.toggle-switch {
+    transform: translateX(calc(80px - 30px));
+}
+
+/* =========== MEDIA QUERY ===========*/
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        padding: 16px 18px;
+    }
+}
