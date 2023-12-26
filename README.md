@@ -59,3 +59,6 @@ The goal was to debug the problems in a section of the JavaScript code provided.
 
 20. [Save Santa](https://amandapennell.github.io/javascriptmas-2023/20-save-santa/)\
 The goal was to save Santa by removing the lions, tigers, bears, and other nefarious creatures from the deeply-nested array. For the stretch goal, the original array structure had to be left intact, I used recursion to accomplish this goal. I also opted to create a visual interface using HTML and CSS.
+
+21. [Expanding Search Bar](https://amandapennell.github.io/javascriptmas-2023/21-expanding-search-bar)\
+The goal was to make an expanding search bar where the search input takes up ⅓ the width of the container. When the user clicks into the search bar, the Input must grow to the entire width of its parent container with a smooth transition, it must shrink back to original size when the user clicks away, and have a blue border. For accessibility, the form input has a label with a valid for attribute, and CSS rules were used to hide the input’s label visually while keeping it accessible to screen readers. As a bonus, I made it so the placeholder text is not visible when the user clicks inside the search bar.
