@@ -68,3 +68,6 @@ For this challenge, I was given the code for an app where you can add names of t
 
 23. [Toggle Switch](https://amandapennell.github.io/javascriptmas-2023/23-toggle-switch/)\
 The goal was to create a toggle switch which on click; moves from one side to the other. The cursor had to become a pointer, and I matched the style. No JavaScript was allowed. I chose to add text, a background, and an image to be toggled.
+
+24. [Christmas Tree Lights](https://amandapennell.github.io/javascriptmas-2023/24-christmas-tree-lights/)\
+The goal was to make the Christmas tree lights flash on and off every 800 milliseconds on a permanent loop. I also completed the stretch goal of making the blue and red lights toggle on and off alternatively. 
