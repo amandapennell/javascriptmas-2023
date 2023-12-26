@@ -56,3 +56,6 @@ The goal was to use AI to generate alt text for the image on the Christmas e-car
 
 19. [Debug Jingle Words](https://scrimba.com/scrim/coa73404193f4745647679eca)\
 The goal was to debug the problems in a section of the JavaScript code provided.
+
+20. [Save Santa](https://amandapennell.github.io/javascriptmas-2023/20-save-santa/)\
+The goal was to save Santa by removing the lions, tigers, bears, and other nefarious creatures from the deeply-nested array. For the stretch goal, the original array structure had to be left intact, I used recursion to accomplish this goal. I also opted to create a visual interface using HTML and CSS.
