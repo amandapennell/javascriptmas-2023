@@ -62,3 +62,6 @@ The goal was to save Santa by removing the lions, tigers, bears, and other nefar
 
 21. [Expanding Search Bar](https://amandapennell.github.io/javascriptmas-2023/21-expanding-search-bar)\
 The goal was to make an expanding search bar where the search input takes up ⅓ the width of the container. When the user clicks into the search bar, the Input must grow to the entire width of its parent container with a smooth transition, it must shrink back to original size when the user clicks away, and have a blue border. For accessibility, the form input has a label with a valid for attribute, and CSS rules were used to hide the input’s label visually while keeping it accessible to screen readers. As a bonus, I made it so the placeholder text is not visible when the user clicks inside the search bar.
+
+22. [Gift App](https://amandapennell.github.io/javascriptmas-2023/22-gift-app/)\
+For this challenge, I was given the code for an app where you can add names of the people you want to purchase gifts for, and double click to remove the name once the gift had been purchased. The goal was to make it so the data doesn’t disappear on reload, using localStorage. I completed a stretch goal to play a GIF after a gift was bought. 
