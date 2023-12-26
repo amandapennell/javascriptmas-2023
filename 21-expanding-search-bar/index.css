@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --search-border: #bbb;
+  --search-focus-border: #3a71ca;
+  --snow: #F0F4F7;
+}
+
+body {
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: var(--snow);
+  font-family: 'Almarai', sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+header {
+  padding: 5px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  float: left;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 33%;
+  height: 33%;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.description {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.search-container {
+  margin: 1rem 1rem 2rem 1rem;
+  padding-bottom: 2em;
+  position: relative; 
+}
+
+.search {
+  background: var(--snow);
+  font-size: 1em;
+  display: flex;
+  position: relative;
+  width: 33%;
+  height: 40px;
+  border: 2px solid var(--search-border);
+  border-radius: 100px;
+  overflow: hidden;
+  transition: width 0.3s ease-in-out;  
+}
+
+.search-bar {
+  background: transparent;
+  flex-grow: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3em 1em;
+  border: none;
+  outline: none;
+  z-index: 2;
+  cursor: pointer;
+}
+
+input::placeholder {
+  font-family: 'Almarai', sans-serif;
+}
+
+.search-icon {
+  background: 0;
+  width: 40px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  transition: background 200ms ease-out;
+  cursor: pointer;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.search:focus-within {
+  width: 100%;
+  box-shadow: 0 0 0 2px var(--search-focus-border);
+}
+
+.search:focus-within .search-bar {
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in, width 0.3s ease-in;
+}
+
+.search-bar:focus::placeholder {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 5px;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+    float: left;
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  
+  .bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search {
+    width: 50%;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .icon {
+    height: 1rem;
+    width: 1rem;
+  }
+
+}
