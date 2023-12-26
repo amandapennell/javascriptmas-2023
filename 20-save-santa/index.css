@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Work+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-red: #D42D2F;
+    --snow: #F0F4F7;
+}
+
+body {
+    background-color: var(--bright-red);
+    color: var(--snow);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Rubik Doodle Shadow', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+div {
+    margin: 1rem;
+}
+
+.bg {
+    border: 2px solid var(--snow);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.danger {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.jail {
+    background: linear-gradient(to right, darkgrey 3px, transparent 1px), var(--snow);
+    background-size: 10px 100%;
+}
+
+.safe {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: var(--snow);
+    color: var(--bright-red);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
